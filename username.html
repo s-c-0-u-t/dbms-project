@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>authenication</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style1.css">
+</head>
+<body>
+   <div class="login-form">
+       <div class="form-title">User Login</div>
+       <br>
+       <div class="form-input">
+        <label for="Username">Username</label>
+        <input type="text" id="username" >
+       </div>
+       <div class="form-input">
+           <label for="password">Password</label>
+           <input type="password" id="password" placeholder="Password">
+       </div>
+       <div class="captcha">
+           <label for="captcha-input">Enter Captcha</label>
+           <div class="preview"></div>
+           <div class="captcha-form">
+               <input type="text" id="captcha-form" placeholder="Enter Captcha">
+          <button class="captcha-refresh">
+            <i class="fa fa-refresh"></i>
+          </button>
+           </div>
+       </div>
+       <div class="form-input">
+           <button id="login-btn">Login</button>
+       </div>
+   </div>
+   
+    
+</body>
+<script src="app1.js"></script>
+</html>
